@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/new/FONDOSX">
+        <file>FONDO_PRINCIPAL.jpg</file>
+    </qresource>
+    <qresource prefix="/new/icons"/>
+    <qresource prefix="/">
+        <file>BUAP.png</file>
+    </qresource>
+</RCC>

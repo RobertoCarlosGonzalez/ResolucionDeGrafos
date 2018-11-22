@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>respuesta</class>
+ <widget class="QDialog" name="respuesta">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>285</width>
+    <height>201</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="floydButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Floyd</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="WarshallButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Warshall</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="PrimButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PRIM</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Kruskalbutton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>110</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Kruskal</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="recorrerButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>81</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ir a Recorridos</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>40</y>
+     <width>151</width>
+     <height>141</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>10</y>
+     <width>131</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>MATRIZ DE RESULTADO</string>
+   </property>
+  </widget>
+  <widget class="QCommandLinkButton" name="commandLinkButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>160</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 8pt &quot;Malgun Gothic&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Regresar</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>commandLinkButton</sender>
+   <signal>clicked()</signal>
+   <receiver>respuesta</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>70</x>
+     <y>178</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>113</x>
+     <y>193</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>floydButton</sender>
+   <signal>clicked()</signal>
+   <receiver>textEdit</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>61</x>
+     <y>29</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>169</x>
+     <y>70</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>floydButton</sender>
+   <signal>clicked()</signal>
+   <receiver>label</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>72</x>
+     <y>31</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>190</x>
+     <y>19</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>WarshallButton</sender>
+   <signal>clicked()</signal>
+   <receiver>textEdit</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>88</x>
+     <y>62</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>152</x>
+     <y>62</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>WarshallButton</sender>
+   <signal>clicked()</signal>
+   <receiver>label</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>30</x>
+     <y>58</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>186</x>
+     <y>13</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PrimButton</sender>
+   <signal>clicked()</signal>
+   <receiver>label</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>75</x>
+     <y>93</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>257</x>
+     <y>23</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>PrimButton</sender>
+   <signal>clicked()</signal>
+   <receiver>textEdit</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>85</x>
+     <y>84</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>148</x>
+     <y>82</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Kruskalbutton</sender>
+   <signal>clicked()</signal>
+   <receiver>label</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>62</x>
+     <y>119</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>232</x>
+     <y>22</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Kruskalbutton</sender>
+   <signal>clicked()</signal>
+   <receiver>textEdit</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>33</x>
+     <y>119</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>212</x>
+     <y>127</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
