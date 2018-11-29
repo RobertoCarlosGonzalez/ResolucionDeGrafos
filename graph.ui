@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>431</width>
-    <height>339</height>
+    <width>411</width>
+    <height>321</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,7 +16,7 @@
   <widget class="QWidget" name="centralWidget">
    <property name="styleSheet">
     <string notr="true">#centralWidget{
-		background: rgba(ff,ff,ff,0.5);
+		background: white;
 		border-image: url(:/BUAP.png);
 }
 #verticalLayout_2{
@@ -249,7 +249,7 @@ font: 75 10pt &quot;Times New Roman&quot;</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>431</width>
+     <width>411</width>
      <height>21</height>
     </rect>
    </property>
@@ -274,12 +274,12 @@ font: 75 10pt &quot;Times New Roman&quot;</string>
    <slot>close()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>373</x>
-     <y>295</y>
+     <x>400</x>
+     <y>256</y>
     </hint>
     <hint type="destinationlabel">
      <x>330</x>
-     <y>317</y>
+     <y>286</y>
     </hint>
    </hints>
   </connection>

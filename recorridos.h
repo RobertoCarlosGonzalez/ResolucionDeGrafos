@@ -1,7 +1,7 @@
 #ifndef RECORRIDOS_H
 #define RECORRIDOS_H
 
-
+#include "grafo.h"
 #include <QDialog>
 
 

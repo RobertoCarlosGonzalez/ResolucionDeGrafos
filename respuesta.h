@@ -2,6 +2,7 @@
 #define RESPUESTA_H
 
 #include <QDialog>
+#include "grafo.h"
 
 namespace Ui {
 class respuesta;

@@ -8,6 +8,7 @@ Graph::Graph(QWidget *parent) :
     ui(new Ui::Graph)
 {
     ui->setupUi(this);
+    this->setWindowTitle("SISTEMA DE SOLUCION DE GRAFOS");
 }
 
 Graph::~Graph()

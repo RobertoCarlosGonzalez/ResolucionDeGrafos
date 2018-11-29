@@ -28,16 +28,16 @@ SOURCES += \
         main.cpp \
         graph.cpp \
     respuesta.cpp \
-    grafo.cpp \
     recorridos.cpp \
     ingresar.cpp
 
 HEADERS += \
         graph.h \
     respuesta.h \
-    grafo.h \
     recorridos.h \
-    ingresar.h
+    ingresar.h \
+    grafo.h \
+    Listas_ligadas.h
 
 FORMS += \
         graph.ui \

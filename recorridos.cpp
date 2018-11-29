@@ -2,10 +2,6 @@
 #include "ui_recorridos.h"
 #include <QMessageBox>
 
-
-
-
-
 recorridos::recorridos(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::recorridos)
